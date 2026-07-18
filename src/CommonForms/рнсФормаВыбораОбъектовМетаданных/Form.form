@@ -228,7 +228,7 @@
             </autoCommandBar>
             <handlers>
               <event>Selection</event>
-              <name>ДеревоВыбор</name>
+              <name>ДеревоМетаданныхВыбор</name>
             </handlers>
             <searchStringAddition>
               <name>ДеревоМетаданныхСтрокаПоиска</name>
@@ -613,7 +613,7 @@
             </autoCommandBar>
             <handlers>
               <event>Selection</event>
-              <name>ДеревоВыбор</name>
+              <name>ДеревоПакетовXDTOВыбор</name>
             </handlers>
             <searchStringAddition>
               <name>ДеревоПакетовXDTOСтрокаПоиска</name>
