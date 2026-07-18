@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c51ea2c5-66ac-45d9-a1a5-aa61073f5162">
+  <name>рнсИспользоватьКлючНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ключ настройки (РНС)</value>
+  </synonym>
+  <location>Catalog.рнсРазделыОбщихНастроек.Attribute.ИспользоватьКлючНастройки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.рнсОбщиеНастройки.Dimension.Ключ</content>
+</mdclass:FunctionalOption>

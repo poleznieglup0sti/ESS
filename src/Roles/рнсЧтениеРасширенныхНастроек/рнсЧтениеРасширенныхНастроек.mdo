@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7c15b30-a05c-4c7f-a536-65e1e8deb7e6">
+  <name>рнсЧтениеРасширенныхНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение расширенных настроек (РНС)</value>
+  </synonym>
+</mdclass:Role>

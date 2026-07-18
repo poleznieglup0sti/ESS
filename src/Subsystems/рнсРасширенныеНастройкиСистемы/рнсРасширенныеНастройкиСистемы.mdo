@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bd79198-bfba-4b5c-8757-801b7ca008ea">
+  <name>рнсРасширенныеНастройкиСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенные настройки системы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.рнсКартинкаРаздела</picture>
+  </picture>
+  <content>InformationRegister.рнсНастройкиПолученияЗначений</content>
+  <content>Catalog.рнсНастройкиВыполненияПравил</content>
+  <content>Catalog.рнсПравилаПолученияДанныхИБ</content>
+  <content>Enum.рнсВариантВыполненияПравила</content>
+  <content>ChartOfCharacteristicTypes.рнсТипыРасширенныхНастроек</content>
+  <content>Catalog.рнсРазделыОбщихНастроек</content>
+  <content>InformationRegister.рнсОбщиеНастройки</content>
+  <content>FunctionalOption.рнсИспользоватьКлючНастройки</content>
+  <content>Catalog.рнсГруппыДоступаРасширенныхНастроек</content>
+  <content>Catalog.рнсПравилаОписанияВстроенныхДокументов</content>
+  <content>Role.рнсДобавлениеИзменениеРасширенныхНастроек</content>
+  <content>Enum.рнсСпособПолученияЗначения</content>
+  <content>CommonModule.рнсСлужебный</content>
+  <content>FunctionalOption.рнсРасширенныеВозможностиНастроек</content>
+  <content>FunctionalOptionsParameter.рнсПравилоПолученияДанных</content>
+  <content>CommonForm.рнсФормаВыбораОбъектовМетаданных</content>
+  <content>FunctionalOptionsParameter.рнсРаздел</content>
+  <content>Role.рнсЧтениеРасширенныхНастроек</content>
+  <content>Catalog.рнсШаблонНабораДанных</content>
+  <content>Catalog.рнсПравилоИнициализацииДанных</content>
+  <content>Catalog.рнсКлючиОбщихНастроек</content>
+  <content>CommonModule.рнсОбщегоНазначения</content>
+  <content>CommonPicture.рнсКартинкаРаздела</content>
+</mdclass:Subsystem>

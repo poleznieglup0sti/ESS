@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d616084b-06a0-4f3f-8fc9-2195831c72c8">
+  <producedTypes>
+    <selectionType typeId="d15f1bf2-ada7-43d8-a69a-e201e3fb331c" valueTypeId="44b4ccc9-6934-4e47-8335-61721e4afc9b"/>
+    <listType typeId="9242019a-204e-4621-a02b-043bf6e697af" valueTypeId="36698526-55b0-4f61-b1ab-95785324196c"/>
+    <managerType typeId="b3345143-a493-490b-a8c1-586f2778313e" valueTypeId="739af76f-5ba1-48c6-922c-dc1a96bab941"/>
+    <recordSetType typeId="da756d80-4d11-49ec-8974-1c53f2f5f5a5" valueTypeId="0c0f3351-444e-49ef-8fc3-062bd964f517"/>
+    <recordKeyType typeId="9c4b7795-7484-4e27-a5ce-e8c900393e45" valueTypeId="1064664e-5c9d-4c3e-8cb3-fe9e98cd7ece"/>
+    <recordType typeId="8409a716-8ec5-4ca3-9bc6-753a69f48efc" valueTypeId="67f6c84e-8b01-4d7c-839c-f4b80e1957b6"/>
+    <recordManagerType typeId="29be7f71-37d8-4903-94c5-75a8b788564a" valueTypeId="21822020-494c-40b8-a104-5ac8dc35a7a3"/>
+  </producedTypes>
+  <name>рнсНастройкиПолученияЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки получения значений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.рнсНастройкиПолученияЗначений.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="37e5b5c6-fa13-43b7-9de4-2e00a6d3a6c5">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.рнсТипыРасширенныхНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="75d4f0c0-e425-40ae-8aae-a732d65f423f">
+    <name>Отключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fb3b1312-4df3-4160-87df-0bc20ceba413">
+    <name>Правило</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рнсПравилаПолученияДанныхИБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="85172d4c-b907-4d5a-b400-752ddf1024d3">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96abd239-f72c-4bce-a45e-866c202af7fc">
+    <name>УсловиеВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие выполнения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рнсНастройкиВыполненияПравил</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.рнсНастройкиПолученияЗначений.Dimension.Правило</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="79b5904e-83f3-4aa2-af25-34ae70e969b8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

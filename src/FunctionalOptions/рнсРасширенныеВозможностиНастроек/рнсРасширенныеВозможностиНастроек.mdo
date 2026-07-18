@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f62a61cc-6e40-4e27-b4ad-79e1d81a3dc4">
+  <name>рнсРасширенныеВозможностиНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенные возможности настроек (РНС)</value>
+  </synonym>
+  <location>Catalog.рнсПравилаПолученияДанныхИБ.Attribute.РасширенныеВозможностиНастроек</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da0d1c00-074b-4a6f-85e2-9a31dc5d8428">
+  <name>рнсДобавлениеИзменениеРасширенныхНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение расширенных настроек (РНС)</value>
+  </synonym>
+</mdclass:Role>

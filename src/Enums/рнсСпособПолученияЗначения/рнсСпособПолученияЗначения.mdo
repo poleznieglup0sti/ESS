@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49170844-9c0c-414b-870f-548d60621878">
+  <producedTypes>
+    <refType typeId="66d7afee-a04e-4ae2-ae29-9093fc5eb3a6" valueTypeId="b3aef598-d325-4093-ae3c-5b557d4b2c0e"/>
+    <listType typeId="c9837979-e816-40f8-9012-58073a2cd837" valueTypeId="04a36b02-beb4-427f-adfe-0ed81e73484a"/>
+    <managerType typeId="c48842bd-cc40-4a19-8822-293485bafab7" valueTypeId="10fbfcb3-5499-4238-b34c-de8255a787fd"/>
+  </producedTypes>
+  <name>рнсСпособПолученияЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ получения значения (РНС)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="98980b60-dd04-4690-a49f-358d88f259cd">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вручную</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73f1c654-1a5b-4f32-bde1-6fc5ade605b6">
+    <name>ИзОписанияСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из описания события</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="110db7d0-f341-43af-a49a-a9c93e24a394">
+    <name>ПоПравилу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По правилу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b3ebcec-8ad8-4010-99f5-55385b7d04f8">
+    <name>ПоПравилуОбщее</name>
+    <synonym>
+      <key>ru</key>
+      <value>По правилу общее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

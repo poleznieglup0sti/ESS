@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbd232d1-9e19-48ce-b2ab-8ca48ce55031">
+  <name>рнсФормаВыбораОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма выбора объектов метаданных (РНС)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

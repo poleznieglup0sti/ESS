@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b02f5586-6417-46c5-a2ed-fdf46f8db57d">
+  <name>Демо_Каркасная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonPicture.Демо_ОперативныйУчет</content>
+  <content>CommonPicture.Демо_БухгалтерскийУчет</content>
+  <content>CommonPicture.Демо_Расчеты</content>
+  <content>CommonPicture.Демо_БизнесПроцессы</content>
+  <content>CommonPicture.Демо_Сервис</content>
+  <content>Catalog.Демо_Валюты</content>
+  <content>Catalog.Демо_Номенклатура</content>
+  <content>Catalog.Демо_Контрагенты</content>
+  <content>Catalog.Демо_ФизическиеЛица</content>
+  <content>Catalog.Демо_Подразделения</content>
+  <content>Document.Демо_ПриходнаяНакладная</content>
+  <content>Document.Демо_РасходнаяНакладная</content>
+  <content>Document.Демо_НачислениеЗарплаты</content>
+  <content>Enum.Демо_УчетнаяПолитика</content>
+  <content>Enum.Демо_ВидыНоменклатуры</content>
+  <content>DataProcessor.Демо_ЗаполнениеГрафика</content>
+  <content>ChartOfCharacteristicTypes.Демо_СвойстваОбъектов</content>
+  <content>ChartOfCharacteristicTypes.Демо_ВидыСубконто</content>
+  <content>ChartOfAccounts.Демо_Управленческий</content>
+  <content>ChartOfCalculationTypes.Демо_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.Демо_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.Демо_Удержания</content>
+  <content>InformationRegister.Демо_РегистрАдресации</content>
+  <content>InformationRegister.Демо_КурсыВалют</content>
+  <content>InformationRegister.Демо_ГрафикиРаботы</content>
+  <content>InformationRegister.Демо_СведенияОСотрудниках</content>
+  <content>AccumulationRegister.Демо_ОстаткиНоменклатуры</content>
+</mdclass:Subsystem>
