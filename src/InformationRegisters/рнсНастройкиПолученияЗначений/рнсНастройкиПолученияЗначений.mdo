@@ -51,6 +51,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка получения значений</value>
+  </recordPresentation>
   <resources uuid="37e5b5c6-fa13-43b7-9de4-2e00a6d3a6c5">
     <name>Значение</name>
     <synonym>

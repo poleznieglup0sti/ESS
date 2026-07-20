@@ -53,6 +53,14 @@
   </standardAttributes>
   <includeHelpInContents>true</includeHelpInContents>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список значений общих настроек</value>
+  </listPresentation>
   <resources uuid="f8072b01-4f84-4cbd-b2b2-e2e5a8f55a25">
     <name>Настройки</name>
     <synonym>

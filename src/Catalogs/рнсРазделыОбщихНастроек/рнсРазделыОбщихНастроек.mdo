@@ -109,23 +109,9 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
-    <items id="1de5d28f-4723-4534-9a31-ab44345cbdca">
-      <name>ЗаполнениеЗаявкиДС</name>
-      <description>Заполнение заявки ДС</description>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
     <items id="c1dc7d48-6cd4-4160-8834-1f463e46f44c">
       <name>ЗначенияПоУмолчанию</name>
       <description>Значения по умолчанию</description>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="783394f3-537f-41bb-8bad-6b5643d604cf">
-      <name>ОповещниеОбИзмненеиях</name>
-      <description>Оповещние об измненеиях</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
@@ -453,20 +439,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="cb8cbaae-a259-4e56-8b8b-0ba4f0b2035c">
-    <name>ФормаВыборкаРеквизитов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выборка реквизитов</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="dd23e4d5-2d3a-4aa8-8d32-3169b1d1e42a">
     <name>ФормаНастройкиПолейКлюча</name>
     <synonym>
       <key>ru</key>
       <value>Форма настройки полей ключа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb8cbaae-a259-4e56-8b8b-0ba4f0b2035c">
+    <name>ФормаВыборкаРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выборка реквизитов</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

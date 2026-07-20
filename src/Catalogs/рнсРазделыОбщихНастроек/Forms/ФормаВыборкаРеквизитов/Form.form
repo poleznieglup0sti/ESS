@@ -371,7 +371,7 @@
           </extendedTooltip>
           <type>ColumnGroup</type>
           <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>Vertical</group>
+            <group>InCell</group>
             <showTitle>true</showTitle>
           </extInfo>
         </items>

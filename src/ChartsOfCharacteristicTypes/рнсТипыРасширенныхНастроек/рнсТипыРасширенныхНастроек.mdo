@@ -93,6 +93,10 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип расширенных настроек</value>
+  </objectPresentation>
   <type>
     <types>CatalogRef.рнсПравилаПолученияДанныхИБ</types>
     <types>CatalogRef.рнсПравилоИнициализацииДанных</types>
