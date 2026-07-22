@@ -155,30 +155,6 @@
         <types>CatalogRef.рнсПравилоИнициализацииДанных</types>
       </type>
     </items>
-    <items id="7ab3d235-5ba8-4898-bbcf-5bd2c9839597">
-      <name>СтатусыЗаявокНаРасходованиеДенежныхСредств</name>
-      <description>Статусы заявок на расходование денежных средств</description>
-      <type>
-        <types>CatalogRef.рнсПравилаПолученияДанныхИБ</types>
-        <types>CatalogRef.рнсПравилоИнициализацииДанных</types>
-        <types>Boolean</types>
-        <types>CatalogRef.рнсПравилаОписанияВстроенныхДокументов</types>
-        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
-        <types>CatalogRef.рнсНастройкиВыполненияПравил</types>
-        <types>String</types>
-        <types>Date</types>
-        <types>Number</types>
-        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>3</scale>
-        </numberQualifiers>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
-        <dateQualifiers/>
-      </type>
-    </items>
     <items id="c756c18c-8f40-4420-991b-230a62a7ee04">
       <name>Строка</name>
       <description>Строка</description>
