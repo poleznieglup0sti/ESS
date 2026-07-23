@@ -2566,10 +2566,10 @@
       <segments>СписокПравил.ВариантВыполнения</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СписокПравил.Правило</segments>
+      <segments>СписокПравил.Код</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СписокПравил.Код</segments>
+      <segments>СписокПравил.Правило</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">

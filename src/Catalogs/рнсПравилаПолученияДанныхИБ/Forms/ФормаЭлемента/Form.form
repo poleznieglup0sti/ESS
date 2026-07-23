@@ -1113,7 +1113,7 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>Настройки</name>
+      <name>РедактироватьЗагрузитьСхему</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1122,7 +1122,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>НастройкиExtendedTooltip</name>
+        <name>РедактироватьЗагрузитьСхемуРасширеннаяПодсказка</name>
         <id>20</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1131,7 +1131,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.Редактировать</commandName>
+      <commandName>Form.Command.РедактироватьЗагрузитьСхему</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1234,8 +1234,25 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ДоступнаФормаРедактированияСКД</name>
+    <title>
+      <key>ru</key>
+      <value>Доступна форма редактирования СКД</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
-    <name>Редактировать</name>
+    <name>РедактироватьЗагрузитьСхему</name>
     <title>
       <key>ru</key>
       <value>Редактировать</value>
@@ -1253,7 +1270,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Редактировать</name>
+        <name>РедактироватьЗагрузитьСхему</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
