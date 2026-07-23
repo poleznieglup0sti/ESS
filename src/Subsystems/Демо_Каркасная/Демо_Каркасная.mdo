@@ -34,4 +34,5 @@
   <content>InformationRegister.Демо_ГрафикиРаботы</content>
   <content>InformationRegister.Демо_СведенияОСотрудниках</content>
   <content>AccumulationRegister.Демо_ОстаткиНоменклатуры</content>
+  <content>CommonModule.РасширенныеНастройкиСистемыДемо</content>
 </mdclass:Subsystem>
