@@ -11,7 +11,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.РасширенныеНастройкиСистемы</name>
+		<name>Configuration.РасширенныеНастройкиСистемыДемо</name>
 		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>

@@ -319,7 +319,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.РасширенныеНастройкиСистемы</name>
+		<name>Configuration.РасширенныеНастройкиСистемыДемо</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>
