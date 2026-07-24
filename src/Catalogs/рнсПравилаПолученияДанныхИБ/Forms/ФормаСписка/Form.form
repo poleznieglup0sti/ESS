@@ -2544,6 +2544,38 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Правило</dataPath>
+        <field>Правило</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Значение</dataPath>
+        <field>Значение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Порядок</dataPath>
+        <field>Порядок</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УсловиеВыполнения</dataPath>
+        <field>УсловиеВыполнения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипСвойства</dataPath>
+        <field>ТипСвойства</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Тип свойства</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отключено</dataPath>
+        <field>Отключено</field>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>

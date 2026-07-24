@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>ГруппаОтборы</name>
     <id>62</id>
@@ -761,6 +761,130 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Раздел</dataPath>
+        <field>Раздел</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Секция</dataPath>
+        <field>Секция</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ключ</dataPath>
+        <field>Ключ</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Настройки</dataPath>
+        <field>Настройки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Значение1</dataPath>
+        <field>Значение1</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Значение2</dataPath>
+        <field>Значение2</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Значение3</dataPath>
+        <field>Значение3</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Значение4</dataPath>
+        <field>Значение4</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Значение5</dataPath>
+        <field>Значение5</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отключено</dataPath>
+        <field>Отключено</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользоватьЗначение1</dataPath>
+        <field>ИспользоватьЗначение1</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать значение1</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользоватьЗначение2</dataPath>
+        <field>ИспользоватьЗначение2</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать значение2</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользоватьЗначение3</dataPath>
+        <field>ИспользоватьЗначение3</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать значение3</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользоватьЗначение4</dataPath>
+        <field>ИспользоватьЗначение4</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать значение4</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользоватьЗначение5</dataPath>
+        <field>ИспользоватьЗначение5</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать значение5</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользоватьСекцииРаздела</dataPath>
+        <field>ИспользоватьСекцииРаздела</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать секции раздела</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользоватьКлючНастройки</dataPath>
+        <field>ИспользоватьКлючНастройки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать ключ настройки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>
