@@ -67,7 +67,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>СписокПравил.Правило</segments>
+            <segments>СписокПравил.Наименование</segments>
           </dataPath>
           <extendedTooltip>
             <name>СписокПравилПравилоРасширеннаяПодсказка</name>
@@ -164,6 +164,40 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>Ссылка</name>
+          <id>259</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокПравил.Ссылка</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СсылкаРасширеннаяПодсказка</name>
+            <id>261</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СсылкаКонтекстноеМеню</name>
+            <id>260</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+          </extInfo>
         </items>
         <autoCommandBar>
           <name>СписокПравилКоманднаяПанель</name>
@@ -2598,19 +2632,20 @@
       <segments>СписокПравил.ВариантВыполнения</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СписокПравил.Код</segments>
+      <segments>СписокПравил.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СписокПравил.Правило</segments>
+      <segments>СписокПравил.Код</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	Таблица.Ссылка КАК Правило,
+	Таблица.Ссылка КАК Ссылка,
 	Таблица.ВариантВыполнения КАК ВариантВыполнения,
 	Таблица.ЕдинственноеЗначение КАК ЕдинственноеЗначение,
 	Таблица.Код КАК Код,
-	Таблица.РежимРаботы КАК РежимРаботы
+	Таблица.РежимРаботы КАК РежимРаботы,
+	Таблица.Наименование КАК Наименование
 ИЗ
 	Справочник.рнсПравилаПолученияДанныхИБ КАК Таблица</queryText>
       <mainTable>Catalog.рнсПравилаПолученияДанныхИБ</mainTable>
@@ -2628,24 +2663,16 @@
         <field>РежимРаботы</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Правило</dataPath>
-        <field>Правило</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Правило</value>
-            </content>
-          </localValue>
-        </title>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ВариантВыполнения</dataPath>
         <field>ВариантВыполнения</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЕдинственноеЗначение</dataPath>
         <field>ЕдинственноеЗначение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
@@ -2718,10 +2745,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЭтоГруппа</dataPath>
         <field>ЭтоГруппа</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наименование</dataPath>
-        <field>Наименование</field>
       </fields>
     </extInfo>
   </attributes>
