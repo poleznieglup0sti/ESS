@@ -106,7 +106,7 @@
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Список правил</value>
+    <value>Список правил описания встроенных документов</value>
   </listPresentation>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
